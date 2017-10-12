@@ -1,0 +1,196 @@
+p {
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  line-height: 2;
+  text-align: justify;
+  font-family: 'chivo', sans-serif;
+  color: #67727A;
+  text-rendering: optimizeLegibility;
+}
+
+
+.page {
+  min-height: 100vh;
+  width: 100vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Asul', sans-serif;
+  text-align: center;
+  color: #D75c37;  margin-bottom: 2%;
+  text-rendering: optimizeLegibility;
+}
+
+h2 {
+  text-rendering: optimizeLegibility;
+  text-align: center;
+    color: #D75c37;
+    
+}
+
+h3 {
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  font-family: 'Asul', sans-serif;
+    color: #67727A;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'chivo', sans-serif;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 3%;
+  color: #67727A;
+
+}
+
+h5 {
+  text-align: center;
+  font-family: 'chivo', sans-serif;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 3%;
+  color: #67727A;
+
+}
+
+body {
+  margin-top: 60px;
+  background-color: #ffffff;
+}
+
+.img {
+  border: solid;
+}
+
+.thick-green-border {
+  border-color: green;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.fadeInUp {
+  animation-duration: 1s;
+}
+
+.fadeInDown {
+  animation-duration: 1s;
+}
+
+.fadeIn {
+  animation-duration: 1s;
+}
+
+.bounceInLeft {
+  animation-delay: 1s;
+}
+
+.bounceInUp {
+  animation-delay: 1s;
+}
+
+.bounceInRight {
+  animation-delay: 1s;
+}
+
+.footer {
+  padding: 0%;
+  margin-top: 1%;
+  background-color: #C3d7df;
+   color: #67727A;
+  text-align: center;
+}
+
+.disc {
+  letter-spacing: 4px;
+  line-height: 2;
+}
+
+.bio {
+  margin: 2%;
+}
+
+.divPad{
+  padding: 3%;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 3px;
+    background: #C3d7df;
+    color: #f5f5f5;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+    background: #6991ac; 
+}
+
+.btn:hover{
+  background:#6991ac;    
+}
+
+
+
+
+
+/* display this row with flex and use wrap (= respect columns' widths) */
+
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* vertical spacing between columns */
+
+[class*="col-"] {
+  margin-bottom: 30px;
+}
+
+.content {
+  height: 100%;
+  padding: 20px 20px 10px;
+  color: #fff;
+}
+
+
+/* Demo backgrounds and styling*/
+
+.colour-1 {
+  background: #483C46;
+  color: #fff;
+}
+
+.colour-2 {
+  background: #3C6E71;
+}
+
+.colour-3 {
+  background: #70AE6E;
+}
+
+.colour-4 {
+  background: #82204A;
+}
+
+.colour-5 {
+  background: #ffffff;
+}
+
+.colour-6 {
+  background: #917C78;
+}
+
+
+
+
+
+
+
