@@ -189,13 +189,13 @@ body {
 
 @media (max-width: 899px) {
     body {
-        font-size: 90%;
+        font-size: 120%;
     }
 }
 
 @media (max-width: 480px) {
     body {
-        font-size: 80%;
+        font-size: 120%;
     }
 }
 
