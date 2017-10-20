@@ -5,7 +5,6 @@ p {
   text-align: justify;
   font-family: 'chivo', sans-serif;
   color: #67727A;
-  text-rendering: optimizeLegibility;
 }
 
 
@@ -26,7 +25,6 @@ h1 {
 }
 
 h2 {
-  text-rendering: optimizeLegibility;
   text-align: center;
     color: #D75c37;
     
@@ -34,7 +32,6 @@ h2 {
 
 h3 {
   text-align: center;
-  text-rendering: optimizeLegibility;
   font-family: 'Asul', sans-serif;
     color: #67727A;
 }
@@ -42,7 +39,6 @@ h3 {
 h4 {
   text-align: center;
   font-family: 'chivo', sans-serif;
-  text-rendering: optimizeLegibility;
   margin-bottom: 3%;
   color: #67727A;
 
@@ -51,7 +47,6 @@ h4 {
 h5 {
   text-align: center;
   font-family: 'chivo', sans-serif;
-  text-rendering: optimizeLegibility;
   margin-bottom: 3%;
   color: #67727A;
 
