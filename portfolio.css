@@ -60,6 +60,9 @@ h5 {
 body {
   margin-top: 60px;
   background-color: #ffffff;
+   font-size: 100%;     /* flexible baseline */
+    font-size: 1.375em;  /* 22px */
+    line-height: 1.4;
 }
 
 .img {
@@ -188,7 +191,17 @@ body {
   background: #917C78;
 }
 
+@media (max-width: 899px) {
+    body {
+        font-size: 90%;
+    }
+}
 
+@media (max-width: 480px) {
+    body {
+        font-size: 80%;
+    }
+}
 
 
 
