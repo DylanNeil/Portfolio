@@ -45,17 +45,32 @@ p {
   padding: 0;
 }
 
+
+.fullscreen {
+  min-height: 100vh;
+  width: 100vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0, 0;
+}
+
 h1 {
   font-family: 'Raleway', sans-serif;
   text-align: center;
   color: #D75c37;  margin-bottom: 2%;
   text-rendering: optimizeLegibility;
+  padding-top: 10%;
+  padding-bottom: -10%;
+
 }
 
 h2 {
   text-align: center;
     color: #D75c37;
     font-family: 'Raleway', sans-serif;
+    padding-top: 10%;
+
     
 }
 
@@ -125,11 +140,20 @@ body {
 }
 
 .footer {
-  padding: 0%;
+  padding: -70%;
   margin-top: 1%;
   background-color: #C3d7df;
    color: #67727A;
   text-align: center;
+  bottom:0;
+  display:block;
+  position:fixed;
+  width: 100%;
+  z-index:9;
+}
+
+.footer-text{
+  padding:30%, 0;
 }
 
 .disc {
@@ -239,7 +263,7 @@ body {
   cursor: pointer;
 }
 
-
-
-
+#vert{
+  padding: 10%, 0;
+}
 
